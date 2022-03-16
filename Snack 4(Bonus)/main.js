@@ -1,9 +1,7 @@
 let container = document.getElementById("container");
 
-
 let firstArray = [23, 10, 1000];
 let secondArray = ["Torino", "Piacenza", "Bologna", "Milano", "Venezia", "Roma", "Napoli"];
-
 
 // Con questa variabile so quante volte devo aggiungere un elemento per ottenere due array con le stesse quantità di elementi
 let difference = Math.abs(firstArray.length - secondArray.length);
@@ -42,7 +40,9 @@ if (difference > 0) {
         container.innerHTML += `<div>-${i + 1}: Primo array = ${firstArray[i]}  / Secondo Array = ${secondArray[i]}</div> `
     }
 
-}else{
+}
+//Hanno lo stesso numero di elementi
+else{
     alert("I due array hanno lo stesso numero di elementi");
 
     // Mando in stampa come sono i due array inizialmente

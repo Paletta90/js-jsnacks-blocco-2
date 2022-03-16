@@ -11,7 +11,7 @@ if (!isNaN(num) && num > 0) {
 
     for (i = 0; i < num; i++) {
 
-        // Numeri casuali che vanno da 0 a l'ultimo indice dell'array
+        // Numeri casuali che vanno da 0 all'ultimo indice dell'array
         let x = Math.floor(Math.random() * (nomi.length));
         let y = Math.floor(Math.random() * (cognomi.length));
 
